@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043BDF621FE39E0800F0E5D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BDF611FE39E0800F0E5D9 /* AppDelegate.swift */; };
+		043BDF641FE39E0800F0E5D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BDF631FE39E0800F0E5D9 /* ViewController.swift */; };
+		043BDF671FE39E0800F0E5D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043BDF651FE39E0800F0E5D9 /* Main.storyboard */; };
+		043BDF691FE39E0800F0E5D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043BDF681FE39E0800F0E5D9 /* Assets.xcassets */; };
+		043BDF6C1FE39E0800F0E5D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043BDF6A1FE39E0800F0E5D9 /* LaunchScreen.storyboard */; };
+		04748AB12007720E00BBC3E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04748AB02007720E00BBC3E8 /* GoogleService-Info.plist */; };
+		04C1F7A120017EE30014BB55 /* inhale_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04C1F79F20017EE30014BB55 /* inhale_sound.mp3 */; };
+		04C1F7A220017EE30014BB55 /* exhale_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04C1F7A020017EE30014BB55 /* exhale_sound.mp3 */; };
+		04D326E51FFED79F002766C7 /* Train_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D326E41FFED79F002766C7 /* Train_ViewController.swift */; };
+		04EA45501FEC404D00D0525D /* Menu_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA454F1FEC404D00D0525D /* Menu_ViewController.swift */; };
+		04EA45521FEC46EA00D0525D /* Monitor_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EA45511FEC46EA00D0525D /* Monitor_ViewController.swift */; };
+		04EEEE6B2007938E00D90265 /* History_table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EEEE6A2007938E00D90265 /* History_table.swift */; };
+		F0E7EAE6C97CCFF1D68C42D0 /* Pods_QiGong.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760BD5EEF249441206BEA439 /* Pods_QiGong.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		043BDF5E1FE39E0800F0E5D9 /* QiGong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiGong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043BDF611FE39E0800F0E5D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		043BDF631FE39E0800F0E5D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		043BDF661FE39E0800F0E5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043BDF681FE39E0800F0E5D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043BDF6B1FE39E0800F0E5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043BDF6D1FE39E0800F0E5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04748AB02007720E00BBC3E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04C1F79F20017EE30014BB55 /* inhale_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = inhale_sound.mp3; sourceTree = "<group>"; };
+		04C1F7A020017EE30014BB55 /* exhale_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = exhale_sound.mp3; sourceTree = "<group>"; };
+		04D326E41FFED79F002766C7 /* Train_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train_ViewController.swift; sourceTree = "<group>"; };
+		04EA454F1FEC404D00D0525D /* Menu_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_ViewController.swift; sourceTree = "<group>"; };
+		04EA45511FEC46EA00D0525D /* Monitor_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monitor_ViewController.swift; sourceTree = "<group>"; };
+		04EEEE6A2007938E00D90265 /* History_table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History_table.swift; sourceTree = "<group>"; };
+		3B2B9A83998E5DBDC9D5D132 /* Pods-QiGong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiGong.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiGong/Pods-QiGong.release.xcconfig"; sourceTree = "<group>"; };
+		760BD5EEF249441206BEA439 /* Pods_QiGong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiGong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E357D13739D71C7661E05E /* Pods-QiGong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiGong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiGong/Pods-QiGong.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043BDF5B1FE39E0800F0E5D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E7EAE6C97CCFF1D68C42D0 /* Pods_QiGong.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043BDF551FE39E0800F0E5D9 = {
+			isa = PBXGroup;
+			children = (
+				043BDF601FE39E0800F0E5D9 /* QiGong */,
+				043BDF5F1FE39E0800F0E5D9 /* Products */,
+				45DD82AF174A22B2EFB66382 /* Pods */,
+				8237D999B3813F407BB9E96A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		043BDF5F1FE39E0800F0E5D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043BDF5E1FE39E0800F0E5D9 /* QiGong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043BDF601FE39E0800F0E5D9 /* QiGong */ = {
+			isa = PBXGroup;
+			children = (
+				043BDF611FE39E0800F0E5D9 /* AppDelegate.swift */,
+				043BDF631FE39E0800F0E5D9 /* ViewController.swift */,
+				043BDF651FE39E0800F0E5D9 /* Main.storyboard */,
+				04EEEE6A2007938E00D90265 /* History_table.swift */,
+				04D326E41FFED79F002766C7 /* Train_ViewController.swift */,
+				04EA45511FEC46EA00D0525D /* Monitor_ViewController.swift */,
+				04EA454F1FEC404D00D0525D /* Menu_ViewController.swift */,
+				043BDF681FE39E0800F0E5D9 /* Assets.xcassets */,
+				043BDF6A1FE39E0800F0E5D9 /* LaunchScreen.storyboard */,
+				043BDF6D1FE39E0800F0E5D9 /* Info.plist */,
+				04748AB02007720E00BBC3E8 /* GoogleService-Info.plist */,
+				04C1F7A020017EE30014BB55 /* exhale_sound.mp3 */,
+				04C1F79F20017EE30014BB55 /* inhale_sound.mp3 */,
+			);
+			path = QiGong;
+			sourceTree = "<group>";
+		};
+		45DD82AF174A22B2EFB66382 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0E357D13739D71C7661E05E /* Pods-QiGong.debug.xcconfig */,
+				3B2B9A83998E5DBDC9D5D132 /* Pods-QiGong.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8237D999B3813F407BB9E96A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				760BD5EEF249441206BEA439 /* Pods_QiGong.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043BDF5D1FE39E0800F0E5D9 /* QiGong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043BDF701FE39E0800F0E5D9 /* Build configuration list for PBXNativeTarget "QiGong" */;
+			buildPhases = (
+				47EBC287987A354339A3B80B /* [CP] Check Pods Manifest.lock */,
+				043BDF5A1FE39E0800F0E5D9 /* Sources */,
+				043BDF5B1FE39E0800F0E5D9 /* Frameworks */,
+				043BDF5C1FE39E0800F0E5D9 /* Resources */,
+				0B780FD9B33AC9CEA9109B9D /* [CP] Embed Pods Frameworks */,
+				DBB9EFA512DABA9E2CA17913 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiGong;
+			productName = QiGong;
+			productReference = 043BDF5E1FE39E0800F0E5D9 /* QiGong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043BDF561FE39E0800F0E5D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ncku;
+				TargetAttributes = {
+					043BDF5D1FE39E0800F0E5D9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 043BDF591FE39E0800F0E5D9 /* Build configuration list for PBXProject "QiGong" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043BDF551FE39E0800F0E5D9;
+			productRefGroup = 043BDF5F1FE39E0800F0E5D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043BDF5D1FE39E0800F0E5D9 /* QiGong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043BDF5C1FE39E0800F0E5D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043BDF6C1FE39E0800F0E5D9 /* LaunchScreen.storyboard in Resources */,
+				043BDF691FE39E0800F0E5D9 /* Assets.xcassets in Resources */,
+				043BDF671FE39E0800F0E5D9 /* Main.storyboard in Resources */,
+				04C1F7A220017EE30014BB55 /* exhale_sound.mp3 in Resources */,
+				04C1F7A120017EE30014BB55 /* inhale_sound.mp3 in Resources */,
+				04748AB12007720E00BBC3E8 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B780FD9B33AC9CEA9109B9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QiGong/Pods-QiGong-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiGong/Pods-QiGong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47EBC287987A354339A3B80B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QiGong-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB9EFA512DABA9E2CA17913 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiGong/Pods-QiGong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043BDF5A1FE39E0800F0E5D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043BDF641FE39E0800F0E5D9 /* ViewController.swift in Sources */,
+				04EA45521FEC46EA00D0525D /* Monitor_ViewController.swift in Sources */,
+				04D326E51FFED79F002766C7 /* Train_ViewController.swift in Sources */,
+				04EA45501FEC404D00D0525D /* Menu_ViewController.swift in Sources */,
+				043BDF621FE39E0800F0E5D9 /* AppDelegate.swift in Sources */,
+				04EEEE6B2007938E00D90265 /* History_table.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		043BDF651FE39E0800F0E5D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043BDF661FE39E0800F0E5D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043BDF6A1FE39E0800F0E5D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043BDF6B1FE39E0800F0E5D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043BDF6E1FE39E0800F0E5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043BDF6F1FE39E0800F0E5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043BDF711FE39E0800F0E5D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E357D13739D71C7661E05E /* Pods-QiGong.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RSLCYLYUW;
+				INFOPLIST_FILE = QiGong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Char.QiGong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043BDF721FE39E0800F0E5D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B2B9A83998E5DBDC9D5D132 /* Pods-QiGong.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RSLCYLYUW;
+				INFOPLIST_FILE = QiGong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Char.QiGong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043BDF591FE39E0800F0E5D9 /* Build configuration list for PBXProject "QiGong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043BDF6E1FE39E0800F0E5D9 /* Debug */,
+				043BDF6F1FE39E0800F0E5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043BDF701FE39E0800F0E5D9 /* Build configuration list for PBXNativeTarget "QiGong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043BDF711FE39E0800F0E5D9 /* Debug */,
+				043BDF721FE39E0800F0E5D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043BDF561FE39E0800F0E5D9 /* Project object */;
+}
